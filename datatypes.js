@@ -9,17 +9,5 @@ let num = 18383883838n
 console.log(typeof num);
 
 //non-primitive datatypes
-//arrays,object,functions.
-
-//1.functions
-
-const name = 'jahan kumar'
-function logGlobalName(){
-    console.log(name)
-}
-
-console.log(name)
-logGlobalName()
-
-//2.arrays
+//arrays,object,functions
 
