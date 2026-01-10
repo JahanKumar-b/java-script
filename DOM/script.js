@@ -15,3 +15,16 @@ document
     highlight.firstElementChild.classList.add("highlight")
     
 })
+
+// example 3
+
+  document.addEventListener("DOMContentLoaded", function () {
+
+    const coffeeType = document.getElementById("coffeeType");
+    const changeOrderBtn = document.getElementById("changeOrder");
+
+    changeOrderBtn.addEventListener("click", function () {
+      coffeeType.textContent = "Espresso";
+    });
+
+  });
